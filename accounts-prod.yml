@@ -1,0 +1,27 @@
+build:
+  version: 2.1.0-prod
+  lastUpdated: 2026-03-30
+  maintainedBy: "accounts-prod-team"
+
+accounts:
+  serviceInfo:
+    name: "Accounts Service"
+    description: "Handles customer account operations and transactions"
+    environment: "prod"
+
+  message: "Accounts Service is running in PRODUCTION environment"
+
+  contactDetails:
+    primaryContact:
+      name: "{cipher}b7c9a1e5d4f67890123456789abcdef0"
+      email: "support@bank.com"
+    secondaryContact:
+      name: "Production Support Team"
+      email: "prod-support@bank.com"
+
+  onCallSupport:
+    weekdays:
+      - "+91-9100000001"
+      - "+91-9100000002"
+    weekends:
+      - "+91-9100000010"
