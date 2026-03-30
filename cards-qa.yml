@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/card_service_db
+    username: root
+    password: MYSQL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate  
+    show-sql: true
+
+build:
+  version: 2.1.0-qa
+  lastUpdated: 2026-03-30
+  maintainedBy: "cards-qa-team"
+
+cards:
+  serviceInfo:
+    name: "Card Service"
+    description: "Handles card issuance, activation and transactions"
+    environment: "QA"
+
+  message: "Card Service is running in QA environment"
+
+  contactDetails:
+    primaryContact:
+      name: "{cipher}c1d2e3f4a5b67890123456789abcdef0"
+      email: "card-qa@bank.com"
+    secondaryContact:
+      name: "QA Card Support"
+      email: "qa-card-support@bank.com"
+
+  onCallSupport:
+    weekdays:
+      - "+91-9500001001"
+      - "+91-9500001002"
+    weekends:
+      - "+91-9500001010"
