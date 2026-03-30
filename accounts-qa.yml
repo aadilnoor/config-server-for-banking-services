@@ -1,7 +1,15 @@
 spring:
-  autoconfigure:
-    exclude: 
-      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  datasource:
+    url: jdbc:mysql://localhost:3306/account_service_db
+    username: root
+    password: MYSQL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
 build:
   version: 2.1.0-qa
   lastUpdated: 2026-03-30
@@ -29,4 +37,3 @@ accounts:
       - "+91-9000000002"
     weekends:
       - "+91-9000000010"
-
