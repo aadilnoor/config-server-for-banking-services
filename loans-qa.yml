@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/loan_service_db
+    username: root
+    password: MYSQL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate  
+    show-sql: true
+
+build:
+  version: 2.1.0-qa
+  lastUpdated: 2026-03-30
+  maintainedBy: "loans-qa-team"
+
+loans:
+  serviceInfo:
+    name: "Loans Service"
+    description: "Handles loan processing, approvals and repayments"
+    environment: "QA"
+
+  message: "Loans Service is running in QA environment"
+
+  contactDetails:
+    primaryContact:
+      name: "{cipher}a1b2c3d4e5f67890123456789abcdef0"
+      email: "qa-loans@bank.com"
+    secondaryContact:
+      name: "QA Loans Support"
+      email: "qa-support@bank.com"
+
+  onCallSupport:
+    weekdays:
+      - "+91-9200001001"
+      - "+91-9200001002"
+    weekends:
+      - "+91-9200001010"
