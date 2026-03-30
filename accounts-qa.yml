@@ -1,3 +1,7 @@
+spring:
+  autoconfigure:
+    exclude: 
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 build:
   version: 2.1.0-qa
   lastUpdated: 2026-03-30
