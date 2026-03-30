@@ -1,1 +1,28 @@
+build:
+  version: 2.1.0-qa
+  lastUpdated: 2026-03-30
+  maintainedBy: "accounts-team"
+
+accounts:
+  serviceInfo:
+    name: "Accounts Service"
+    description: "Handles customer account operations and transactions"
+    environment: "QA"
+
+  message: "Accounts Service is running in QA environment"
+
+  contactDetails:
+    primaryContact:
+      name: "{cipher}a8f5f167f44f4964e6c998dee827110c"
+      email: "qa-support@bank.com"
+    secondaryContact:
+      name: "Backup QA Support"
+      email: "backup@bank.com"
+
+  onCallSupport:
+    weekdays:
+      - "+91-9000000001"
+      - "+91-9000000002"
+    weekends:
+      - "+91-9000000010"
 
