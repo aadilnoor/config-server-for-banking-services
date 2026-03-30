@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/account_service_db
+    username: root
+    password: MYSQL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+build:
+  version: 2.1.0-dev
+  lastUpdated: 2026-03-30
+  maintainedBy: "accounts-dev-team"
+
+accounts:
+  serviceInfo:
+    name: "Accounts Service"
+    description: "Handles customer account operations"
+    environment: "dev"
+
+  message: "Accounts Service is running in DEV environment"
