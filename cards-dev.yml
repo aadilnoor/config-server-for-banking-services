@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/card_service_db
+    username: root
+    password: MYSQL
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    show-sql: true
+
+build:
+  version: 2.1.0-dev
+  lastUpdated: 2026-03-30
+  maintainedBy: "cards-dev-team"
+
+cards:
+  serviceInfo:
+    name: "Card Service"
+    description: "Handles card issuance, activation and transactions"
+    environment: "dev"
+
+  message: "Card Service is running in DEV environment"
+
+  contactDetails:
+    primaryContact:
+      name: "Dev Card Support"
+      email: "card-dev@bank.com"
+    secondaryContact:
+      name: "Backup Dev Card Team"
+      email: "backup-card@bank.com"
+
+  onCallSupport:
+    weekdays:
+      - "+91-9400001001"
+      - "+91-9400001002"
+    weekends:
+      - "+91-9400001010"
