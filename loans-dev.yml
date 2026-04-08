@@ -37,12 +37,5 @@ loans:
       - "+91-9100001002"
     weekends:
       - "+91-9100001010"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - refresh
           - busrefresh
           - restart
