@@ -22,5 +22,3 @@ accounts:
     environment: "dev"
 
   message: "Accounts Service is running in DEV environment"
-          - busrefresh
-          - restart
