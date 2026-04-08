@@ -17,7 +17,7 @@ build:
 
 accounts:
   serviceInfo:
-    name: "Accounts Service"
+    name: "Accounts Service (Actuator Refresh)"
     description: "Handles customer account operations"
     environment: "dev"
 
