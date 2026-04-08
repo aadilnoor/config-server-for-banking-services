@@ -37,12 +37,5 @@ cards:
       - "+91-9400001002"
     weekends:
       - "+91-9400001010"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - refresh
           - busrefresh
           - restart
