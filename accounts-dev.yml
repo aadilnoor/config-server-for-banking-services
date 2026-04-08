@@ -22,3 +22,12 @@ accounts:
     environment: "dev"
 
   message: "Accounts Service is running in DEV environment"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - busrefresh
+          - restart
