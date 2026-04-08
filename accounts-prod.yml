@@ -17,7 +17,7 @@ build:
 
 accounts:
   serviceInfo:
-    name: "Accounts Service"
+    name: "Accounts Service (Actuator Test)"
     description: "Handles customer account operations and transactions"
     environment: "prod"
 
