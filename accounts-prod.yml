@@ -37,12 +37,3 @@ accounts:
       - "+91-9100000002"
     weekends:
       - "+91-9100000010"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - refresh
-          - busrefresh
-          - restart
